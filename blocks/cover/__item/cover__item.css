@@ -1,0 +1,9 @@
+.cover__item{
+
+    background-color: #2A2C2F;
+    opacity: 0.8;
+  }
+
+ .cover__item:hover{
+    opacity:0.3;
+ }

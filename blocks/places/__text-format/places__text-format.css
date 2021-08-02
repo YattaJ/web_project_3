@@ -1,0 +1,25 @@
+.places__text-format{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.67;
+
+    padding:0;
+    margin-top:0;
+    margin-bottom:24px ;
+
+    color: #FFFFFF;
+
+}
+
+.places__text-format:last-child{
+    margin-bottom:0;
+}
+
+@media screen and (max-width:768px){
+    .places__text-format{
+        font-size: 16px;
+        line-height: 1.62;
+
+    }
+}
