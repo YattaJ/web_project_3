@@ -1,9 +1,50 @@
-.cover__item{
+.cover__item {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-image: url(../../../images/cover-route-66.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  min-height: 740px;
+}
 
-    background-color: #2A2C2F;
-    opacity: 0.8;
+.cover__item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #2a2c2f;
+  opacity: .3;
+  transition: opacity .3s ease;
+}
+
+.cover__item:hover::before {
+  opacity: .8;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__item {
+    min-height: 640px;
   }
+}
 
- .cover__item:hover{
-    opacity:0.3;
- }
+@media screen and (max-width: 768px) {
+  .cover__item {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .cover__item {
+    min-height: 200px;
+  }
+}
