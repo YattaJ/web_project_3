@@ -13,6 +13,7 @@
   background-position: center;
   object-fit: cover;
   min-height: 740px;
+  width: 100%;
 }
 
 .cover__item::before {
