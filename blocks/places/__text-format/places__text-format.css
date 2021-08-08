@@ -1,25 +1,24 @@
-.places__text-format{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 1.67;
-
-    padding:0;
-    margin-top:0;
-    margin-bottom:24px;
-
-    color: #FFFFFF;
-
+.places__text-format {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.63;
+  padding: 0;
+  margin: 0 0 25px;
 }
 
-.places__text-format:last-child{
-    margin-bottom:0;
+.places__text-format:last-of-type {
+   margin-bottom: 0; 
+  }
+
+@media screen and (max-width: 768px){
+  .places__text-format {
+    font-size: 16px;
+  }
 }
 
-@media screen and (max-width:768px){
-    .places__text-format{
-        font-size: 16px;
-        line-height: 1.62;
-
-    }
+@media screen and (max-width: 320px){
+  .places__text-format {
+    font-size: 16px;
+    margin: 0 16px 25px;
+  }
 }

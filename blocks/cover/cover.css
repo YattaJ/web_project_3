@@ -3,9 +3,11 @@
 @import url(./__item/cover__item.css);
 
 .cover {
-  margin: 92px 48px;
-  padding: 0;
-  height: auto;
+	max-width: 1184px;
+	height: auto;
+	padding: 0;
+	margin: 92px 48px;
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -17,20 +19,13 @@
 
 @media screen and (max-width: 768px) {
   .cover {
-    width: 100%;
     margin: 0 0 88px;
-  }
-}
-
-@media screen and (max-width: 460px) {
-  .cover {
-    padding: 64px 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover {
-    max-width: 100%;
+    width: 320px;;
 	margin-bottom: 64px;
 	margin: 0 0 64px;
   }

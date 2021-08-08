@@ -1,18 +1,27 @@
-.lead__caption{
-    width:183px;
-    margin-top:11px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    line-height:1.2;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-
-    color: #FFFFFF;
+.lead__caption {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.16;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin: 8px 0 0;
+  padding: 0;
 }
 
-@media screen and (max-width:768px){
-    .lead__caption{
-        margin-left:24px;
-    }
+@media screen and (max-width: 1024px){
+  .lead__caption {
+    margin: 8px 0 0;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .lead__caption {
+    margin: 8px 0 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .lead__caption {
+    margin: 8px 0 0 16px;
+  }
 }

@@ -1,12 +1,13 @@
 .places__link {
-    grid-row:1;
-    grid-column:2/3;
-    align-self: end;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
 }
 
-@media screen and (max-width:425px){
-    .places__link {
-        display: none;
-    }
-
+@media screen and (max-width: 320px){
+  .places__link {
+    margin-left: 16px;
+  }
 }

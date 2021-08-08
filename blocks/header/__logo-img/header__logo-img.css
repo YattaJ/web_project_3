@@ -1,9 +1,12 @@
 .header__logo-img{
-    width: 196.42px;
-    background-size: contain;
+    width: 190px;
+    margin: 0;
+	padding: 0;
  }
- @media screen and (max-width:425px) {
+ 
+ @media screen and (max-width: 320px) {
     .header__logo_img{
-        width:156px;
+        width: 156px;
+		height: 36px;
     }
 }
