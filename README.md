@@ -17,3 +17,5 @@ This is a project about traveling across the US. This is my third project that d
 
 For this project I worked on replacing absolute values (pixels) with relative values (%, vw, vh and fr) to make the page responsive.
 I used a program called Figma to access the design brief to include the images and fonts. 
+
+I've also used the Github pages feature to publish my site and I also used the .nojekyll empty file so that the BEM methodologies will show up on the published site.
