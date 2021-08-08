@@ -3,25 +3,22 @@
 @import url(./__item/cover__item.css);
 
 .cover {
-  margin: 0 auto;
-  padding: 92px 48px 92px;
-  position: relative;
-  max-width: 1184px;
-  width:100%;
+  margin: 92px 48px;
+  padding: 0;
+  height: auto;
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
-    max-width: 100%;
-    width: 100vw;
-    padding: 92px 0 92px;
+    width: 100%;
+    margin: 0 0 92px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
-    max-width: 100%;
-    padding: 89px 0 88px;
+    width: 100%;
+    margin: 0 0 88px;
   }
 }
 
@@ -34,5 +31,7 @@
 @media screen and (max-width: 320px) {
   .cover {
     max-width: 100%;
+	margin-bottom: 64px;
+	margin: 0 0 64px;
   }
 }
