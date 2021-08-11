@@ -4,6 +4,7 @@
   color:  #AAAAAA;
   font-size: 12px;
   line-height: 1.7;
+  letter-spacing: 0.2em;
 }
 
 @media screen and (max-width: 768px){
