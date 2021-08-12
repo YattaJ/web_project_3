@@ -1,4 +1,6 @@
 .page{
+	padding-top: 24px;
+	padding-bottom: 24px;
     background-color: #2A2C2F;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
